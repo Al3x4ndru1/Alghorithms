@@ -33,6 +33,12 @@ int main()
 
     cout << m[1][n - 1] << endl;
     cout << S[1][n - 1] << endl;
+    for(int i = 1; i < n; i++){
+        for(j=1;j<n;j++){
+            cout<<m[i][j]<<" ";
+        } 
+        cout << endl;
+    }
 }
 
 // TODO: The S matrix will keep in mind how to multiply the matrixand the m is the cost
