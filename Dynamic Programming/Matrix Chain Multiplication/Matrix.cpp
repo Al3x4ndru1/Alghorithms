@@ -2,9 +2,9 @@
 using namespace std;
 
 int main()
-{
-    int P[] = {5, 4, 6, 2, 7}; // Array which have the dimensions A1(5x4) A2(4x6) A3(6x2) A4(2x7)
+{   
     int n = 5;                 // Number of matrices
+    int P[] = {5, 4, 6, 2, 7}; // Array which have the dimensions A1(5x4) A2(4x6) A3(6x2) A4(2x7)
     int S[5][5] = {0};         // Matrice pentru a tine minte cum le multiplicam
     int m[5][5] = {0};         // Matrice pentru cost
     int j, min, q;
@@ -34,3 +34,5 @@ int main()
     cout << m[1][n - 1] << endl;
     cout << S[1][n - 1] << endl;
 }
+
+// TODO: The S matrix will keep in mind how to multiply the matrixand the m is the cost
